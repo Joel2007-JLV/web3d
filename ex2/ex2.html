@@ -1,11 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercici 2</title>
-</head>
-<body>
-    <h1>Exercici 2</h1>
-</body>
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-assets>
+        <img id="nadal" src="mundo.jpg">
+        <img id="luna" src="luna.png">
+      </a-assets>
+      <a-sky color="#000"></a-sky>
+      
+      <!-- Suelo -->
+      <a-plane position="0 0 -5" rotation="-90 0 0" width="100" height="100" color="#555"></a-plane>
+
+      <!-- Esfera de Nadal -->
+      <a-sphere position="0 2 -5" radius="1" src="#nadal"
+        animation="property: rotation; dur: 10000; to: 0 360 0; loop: true"></a-sphere>  
+      
+      <!-- Esfera de Luna -->
+      <a-sphere position="5 2 -10" radius="1" src="#luna"
+        animation="property: rotation; dur: 10000; to: 0 360 0; loop: true"></a-sphere>
+
+      <!-- Entidad de cámara con controles de movimiento -->
+      <a-entity camera position="0 1.6 0" wasd-controls look-controls></a-entity>
+    </a-scene>
+  </body>
 </html>
