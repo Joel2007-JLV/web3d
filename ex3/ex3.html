@@ -10,10 +10,7 @@
         <a-scene mindar-image="imageTargetSrc: targets.mind;" color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
             <a-assets>
                 <img id="wally" src="wally.jpeg" />
-                <img id="" src=".png" />
-                <img id="" src=".png" />
-                <img id="" src=".png" />
-                <img id="" src=".png" />
+                <a-asset-item id="avatarModel" src="Rumba.glb"></a-asset-item>
             </a-assets>
 
             <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
@@ -22,16 +19,36 @@
                 <a-plane src="#wally" position="0 0 0" height="1" width="1" rotation="0 0 0"></a-plane>              
             </a-entity>
             <a-entity mindar-image-target="targetIndex: 1">
-                <a-plane src="#" position="0 0 0" height="1" width="1" rotation="0 0 0"></a-plane>              
+                <a-gltf-model src="#avatarModel"
+                    scale="0.005 0.005 0.005"
+                    position="0 0 0"
+                    rotation="90 0 0"
+                    animation-mixer ="clip: mixamo.com">
+                </a-gltf-model>              
             </a-entity>
             <a-entity mindar-image-target="targetIndex: 2">
-                <a-plane src="#" position="0 0 0" height="1" width="1" rotation="0 0 0"></a-plane>              
+                <a-gltf-model src="#avatarModel"
+                    scale="0.005 0.005 0.005"
+                    position="0 0 0"
+                    rotation="90 0 0"
+                    animation-mixer ="clip: mixamo.com">
+                </a-gltf-model>              
             </a-entity>
             <a-entity mindar-image-target="targetIndex: 3">
-                <a-plane src="#" position="0 0 0" height="1" width="1" rotation="0 0 0"></a-plane>              
+                <a-gltf-model src="#avatarModel"
+                    scale="0.005 0.005 0.005"
+                    position="0 0 0"
+                    rotation="90 0 0"
+                    animation-mixer ="clip: mixamo.com">
+                </a-gltf-model>              
             </a-entity>
             <a-entity mindar-image-target="targetIndex: 4">
-                <a-plane src="#" position="0 0 0" height="1" width="1" rotation="0 0 0"></a-plane>              
+                <a-gltf-model src="#avatarModel"
+                    scale="0.005 0.005 0.005"
+                    position="0 0 0"
+                    rotation="90 0 0"
+                    animation-mixer ="clip: mixamo.com">
+                </a-gltf-model>              
             </a-entity>
         </a-scene>
     </body>
