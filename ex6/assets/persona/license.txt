@@ -1,0 +1,11 @@
+Model Information:
+* title:	FNaTI NBD Version 2: Terror
+* source:	https://sketchfab.com/3d-models/fnati-nbd-version-2-terror-9b43d6bcce474b489b4b22bf2fb9ccca
+* author:	MinionPapoy (https://sketchfab.com/MinionPapoy)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "FNaTI NBD Version 2: Terror" (https://sketchfab.com/3d-models/fnati-nbd-version-2-terror-9b43d6bcce474b489b4b22bf2fb9ccca) by MinionPapoy (https://sketchfab.com/MinionPapoy) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
